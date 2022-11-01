@@ -6,6 +6,8 @@ ALMA's OAI-PMH harvesting GUI interacts poorly with the default figshare OAI-PMH
 
 # How it works
 We use a Apache httpd server as a proxy, rewriting the URLs of figshare OAI-PMH feed to focus on 
-the set we're interested in. No data is cached or stored locally. 
+the set we're interested in. 
+
+No data is cached or stored locally, so the data is always 'live'. 
 
 
